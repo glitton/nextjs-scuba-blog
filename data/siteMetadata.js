@@ -1,22 +1,20 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Scuba Diving Adventures',
+  title: 'GLCodeworks Scuba Blog',
   author: 'Generosa Litton',
-  headerTitle: 'GLCodeworks Blog',
-  description: 'A blog created with Next.js and Tailwind.css',
+  headerTitle: 'Scuba Diving Adventures',
+  description: 'Sharing the wonders of the ocean',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
-  siteLogo: '/static/images/logo.png',
+  siteRepo: 'https://github.com/glitton/nextjs-scuba-blog',
+  siteLogo: 'logo.svg',
   socialBanner: '/static/images/twitter-card.png',
-  mastodon: 'https://mastodon.social/@mastodonuser',
-  email: 'address@yoursite.com',
-  github: 'https://github.com',
-  twitter: 'https://twitter.com/Twitter',
-  facebook: 'https://facebook.com',
-  youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
+  email: 'generosa@glcodeworks.com',
+  github: 'https://github.com/glitton',
+  twitter: 'https://twitter.com/Twitter/LittonG',
+  linkedin: 'https://www.linkedin.com/in/glitton',
+  instagram: 'https://www.instagram.com/bennie_maru/',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
