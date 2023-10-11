@@ -1,6 +1,6 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'GLCodeworks Scuba Blog',
+  title: 'Scuba Blog',
   author: 'Generosa Litton',
   headerTitle: 'Scuba Diving Adventures',
   description: 'Sharing the wonders of the ocean',
