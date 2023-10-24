@@ -14,8 +14,7 @@ const Video = ({ embedId }) => (
       width="853"
       height="480"
       src={`https://www.youtube-nocookie.com/embed/${embedId}`}
-      frameBorder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allow="autoplay; encrypted-media"
       allowFullScreen
       title="Embedded youtube"
       type="text/html"
