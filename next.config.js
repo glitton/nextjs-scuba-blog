@@ -59,8 +59,8 @@ const securityHeaders = [
   },
   // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/frame-src
   {
-    key: 'Frame-Src',
-    value: 'https://www.youtube-nocookie.com/*',
+    key: 'frame-src',
+    value: 'https://www.youtube-nocookie.com/embed/*',
   },
 ]
 
