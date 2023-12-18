@@ -1,3 +1,5 @@
+const { withNextVideo } = require('next-video/process')
+
 const { withContentlayer } = require('next-contentlayer')
 
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
@@ -94,5 +96,5 @@ module.exports = () => {
 
       return config
     },
-  })
+  });
 }
