@@ -12,7 +12,7 @@ const ContentSecurityPolicy = `
   script-src 'self' 'unsafe-eval' 'unsafe-inline' giscus.app analytics.umami.is https://youtube-nocookie.com;
   style-src 'self' 'unsafe-inline';
   img-src * blob: data:;
-  media-src *.s3.amazonaws.com;
+  media-src *.s3.amazonaws.com *.mux.com *.youtube*.com;
   connect-src *;
   font-src 'self';
   frame-src giscus.app https://youtube-nocookie.com
@@ -96,5 +96,5 @@ module.exports = () => {
 
       return config
     },
-  });
+  })
 }

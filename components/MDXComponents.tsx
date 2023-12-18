@@ -5,7 +5,7 @@ import type { MDXComponents } from 'mdx/types'
 import Image from './Image'
 import CustomLink from './Link'
 import MyVideo from './Video'
-import NextVideo from 'next-video'
+import Video from 'next-video'
 
 export const components: MDXComponents = {
   Image,
@@ -14,5 +14,5 @@ export const components: MDXComponents = {
   pre: Pre,
   BlogNewsletterForm,
   MyVideo,
-  NextVideo,
+  Video,
 }
