@@ -6,14 +6,14 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 
 // You might need to insert additional domains in script-src if you are using external services
 const ContentSecurityPolicy = `
-  default-src 'self' https://youtube-nocookie.com;
-  script-src 'self' 'unsafe-eval' 'unsafe-inline' giscus.app analytics.umami.is https://youtube-nocookie.com;
+  default-src 'self' https://www.youtube.com;
+  script-src 'self' 'unsafe-eval' 'unsafe-inline' giscus.app analwww.tics.umami.is https://www.youtube.com;
   style-src 'self' 'unsafe-inline';
   img-src * blob: data:;
   media-src *.youtube.com;
   connect-src *;
   font-src 'self';
-  frame-src giscus.app https://youtube-nocookie.com
+  frame-src giscus.app https://www.youtube.com
 `
 
 const securityHeaders = [
