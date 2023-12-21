@@ -1,3 +1,4 @@
+'use client'
 import { FC } from 'react'
 
 const YouTube: FC<{ embedId: string }> = ({ embedId }) => {

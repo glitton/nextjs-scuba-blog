@@ -1699,6 +1699,41 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@cloudinary-util/url-loader@npm:^3.22.0":
+  version: 3.23.0
+  resolution: "@cloudinary-util/url-loader@npm:3.23.0"
+  dependencies:
+    "@cloudinary-util/util": 2.3.0
+    "@cloudinary/url-gen": ^1.10.2
+  checksum: 21aa6b70c1b44a17c41e83d4fe6d7b7937c50e15f198433c1d6b35026f2d3d7795b94d9d7600926af38d7db1964c25ee72e11998d75db83a0f881846b16db960
+  languageName: node
+  linkType: hard
+
+"@cloudinary-util/util@npm:2.3.0, @cloudinary-util/util@npm:^2.3.0":
+  version: 2.3.0
+  resolution: "@cloudinary-util/util@npm:2.3.0"
+  checksum: e639c6cdc86f9558f9ea3dac79962890a42b9473352789407dd3ecaac4d826e532e5ddc369dc583379275bb797ed1b08987538c9816aaf9208935511f114fe50
+  languageName: node
+  linkType: hard
+
+"@cloudinary/transformation-builder-sdk@npm:^1.9.0":
+  version: 1.10.0
+  resolution: "@cloudinary/transformation-builder-sdk@npm:1.10.0"
+  dependencies:
+    "@cloudinary/url-gen": ^1.7.0
+  checksum: 9b45e611a31da3d1f5b6242cca27e1a29aa51f64a508ad68133515fef2be2af9c1d8a07975327cacfb3975dc6f112e67b3238ea4df740710d517afbcbe1fb1a3
+  languageName: node
+  linkType: hard
+
+"@cloudinary/url-gen@npm:^1.10.2, @cloudinary/url-gen@npm:^1.7.0":
+  version: 1.14.0
+  resolution: "@cloudinary/url-gen@npm:1.14.0"
+  dependencies:
+    "@cloudinary/transformation-builder-sdk": ^1.9.0
+  checksum: 057b7a5d9ea72c129fbb912d4db16a8caa5c54d732d62471d8c8b1b1afd2c455a5e61a547b40502b62dbed8ab8b3617713dbffdee20846d6bb76dce3f40fdfc6
+  languageName: node
+  linkType: hard
+
 "@contentlayer/cli@npm:0.3.4":
   version: 0.3.4
   resolution: "@contentlayer/cli@npm:0.3.4"
@@ -8594,6 +8629,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"next-cloudinary@npm:^5.15.0":
+  version: 5.15.0
+  resolution: "next-cloudinary@npm:5.15.0"
+  dependencies:
+    "@cloudinary-util/url-loader": ^3.22.0
+    "@cloudinary-util/util": ^2.3.0
+  peerDependencies:
+    next: ^12 || ^13 || ^14
+    react: ^17 || ^18
+  checksum: 64e1a49e8504e5b1b8436968dda22b675b55e9e255ba8bbf0af273006546a30495eae8f52889cd77107df1990fcac67ffdda04d99f5abdfb8dc0b83a31680ddf
+  languageName: node
+  linkType: hard
+
 "next-contentlayer@npm:0.3.4, next-contentlayer@npm:^0.3.4":
   version: 0.3.4
   resolution: "next-contentlayer@npm:0.3.4"
@@ -10976,6 +11024,7 @@ __metadata:
     image-size: 1.0.0
     lint-staged: ^13.0.0
     next: 14.0.3
+    next-cloudinary: ^5.15.0
     next-contentlayer: 0.3.4
     next-themes: ^0.2.1
     pliny: 0.1.6
