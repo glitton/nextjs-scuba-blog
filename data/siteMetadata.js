@@ -8,7 +8,7 @@ const siteMetadata = {
   theme: 'system', // system, dark or light
   siteUrl: 'https://blog.glcodeworks.com/blog',
   siteRepo: 'https://github.com/glitton/nextjs-scuba-blog',
-  siteLogo: 'logo.svg',
+  siteLogo: 'glcodeworks-logo.svg',
   socialBanner: '/static/images/twitter-card.png',
   email: 'generosa@glcodeworks.com',
   github: 'https://github.com/glitton',
