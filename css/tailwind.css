@@ -36,6 +36,6 @@ input:-webkit-autofill:focus {
     color 600000s 0s;
 }
 
-small {
+small.p {
   margin-top: -20px;
 }
