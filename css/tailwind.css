@@ -37,5 +37,5 @@ input:-webkit-autofill:focus {
 }
 
 small p {
-  margin-top: -20px;
+  margin-top: 0px !important;
 }
