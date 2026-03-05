@@ -13,7 +13,7 @@ const ContentSecurityPolicy = `
   media-src *.youtube.com;
   connect-src *;
   font-src 'self';
-  frame-src giscus.app https://www.youtube.com
+  frame-src giscus.app https://www.youtube-nocookie.com/embed/*;
 `
 
 const securityHeaders = [
@@ -58,10 +58,6 @@ const securityHeaders = [
   //   value: 'youtube-nocookie.com',
   // },
   // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/frame-src
-  {
-    key: 'frame-src',
-    value: 'https://www.youtube-nocookie.com/embed/*',
-  },
 ]
 
 /**
@@ -105,5 +101,3 @@ module.exports = () => {
     },
   })
 }
-
-console.log(typeof withContentlayer, typeof withBundleAnalyzer)
