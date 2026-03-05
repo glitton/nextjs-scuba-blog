@@ -86,6 +86,15 @@ module.exports = () => {
         },
       ]
     },
+    async redirects() {
+      return [
+        {
+          source: '/blog/:slug*',
+          destination: '/old-blogs/:slug*',
+          permanent: true,
+        },
+      ]
+    },
     webpack: (config, options) => {
       config.module.rules.push({
         test: /\.svg$/,
@@ -96,3 +105,5 @@ module.exports = () => {
     },
   })
 }
+
+console.log(typeof withContentlayer, typeof withBundleAnalyzer)
