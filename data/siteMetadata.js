@@ -6,7 +6,7 @@ const siteMetadata = {
   description: 'Sharing the wonders of the ocean',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://blog.glcodeworks.com/blog',
+  siteUrl: 'https://blog.glcodeworks.com/old-blogs',
   siteRepo: 'https://github.com/glitton/nextjs-scuba-blog',
   siteLogo: 'glcodeworks-logo.svg',
   socialBanner: '/static/images/twitter-card.png',
