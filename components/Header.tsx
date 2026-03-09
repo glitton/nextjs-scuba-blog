@@ -23,6 +23,9 @@ const Header = () => {
               siteMetadata.headerTitle
             )}
           </div>
+          <div className="text-sm leading-7 text-gray-500 dark:text-gray-400">
+            Click here for the latest blogs (coming soon)
+          </div>
         </Link>
       </div>
       <div className="flex items-center leading-5 space-x-4 sm:space-x-6">
