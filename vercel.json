@@ -1,0 +1,19 @@
+{
+  "rewrites": [
+    {
+      "source": "/stories",
+      "destination": "https://2026-scuba-blog.netlify.app/stories"
+    },
+    {
+      "source": "/stories/:path*",
+      "destination": "https://2026-scuba-blog.netlify.app/stories/:path*"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/old-blogs",
+      "permanent": true
+    }
+  ]
+}
