@@ -24,7 +24,11 @@ const Header = () => {
             )}
           </div>
           <div className="text-sm leading-7 text-gray-500 dark:text-gray-400">
-            Click here for the latest blogs (coming soon)
+            Click{' '}
+            <a href="https://blog.glcodeworks.com/stories/" target="_blank">
+              here
+            </a>{' '}
+            for the latest blogs
           </div>
         </Link>
       </div>
