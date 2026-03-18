@@ -23,14 +23,17 @@ const Header = () => {
               siteMetadata.headerTitle
             )}
           </div>
-          <div className="text-sm leading-7 text-gray-500 dark:text-gray-400">
-            Click
-            <Link href="https://scuba.glcodeworks.com" target="_blank">
-              here
-            </Link>
-            for the latest blogs
-          </div>
         </Link>
+        <div className="text-sm leading-7 text-gray-500 dark:text-gray-400">
+          Click{' '}
+          <Link
+            href="https://scuba.glcodeworks.com/"
+            className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+          >
+            here
+          </Link>{' '}
+          for the latest blogs
+        </div>
       </div>
       <div className="flex items-center leading-5 space-x-4 sm:space-x-6">
         {headerNavLinks
