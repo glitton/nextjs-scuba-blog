@@ -24,10 +24,10 @@ const Header = () => {
             )}
           </div>
           <div className="text-sm leading-7 text-gray-500 dark:text-gray-400">
-            Click{' '}
-            <a href="https://scuba.glcodeworks.com" target="_blank">
+            Click
+            <Link href="https://scuba.glcodeworks.com" target="_blank">
               here
-            </a>
+            </Link>
             for the latest blogs
           </div>
         </Link>
