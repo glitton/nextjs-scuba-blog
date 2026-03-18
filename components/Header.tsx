@@ -27,7 +27,7 @@ const Header = () => {
             Click{' '}
             <a href="https://scuba.glcodeworks.com/stories/" target="_blank">
               here
-            </a>{' '}
+            </a>
             for the latest blogs
           </div>
         </Link>
