@@ -1,4 +1,11 @@
 {
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/old-blogs",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
       "source": "/stories",
@@ -7,13 +14,6 @@
     {
       "source": "/stories/:path*",
       "destination": "https://2026-scuba-blog.netlify.app/stories/:path*"
-    }
-  ],
-  "redirects": [
-    {
-      "source": "/",
-      "destination": "/old-blogs",
-      "permanent": true
     }
   ]
 }
